@@ -1,0 +1,16 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+../include/libhello.h
+iostream
+-
+
+/home/hhb/Project/C++/DesginModel/src/libhello.cpp
+libhello.h
+/home/hhb/Project/C++/DesginModel/src/libhello.h
+

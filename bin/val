@@ -1,0 +1,2 @@
+# valgrind --tool=memcheck --leak-check=yes --show-reachable=yes --run-libc-freeres=yes --log-file=./valgrind_report.log ./main  $@
+valgrind --tool=memcheck --leak-check=yes --show-reachable=yes --run-libc-freeres=yes ./main
